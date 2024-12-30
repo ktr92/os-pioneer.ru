@@ -1,0 +1,195 @@
+<!-- верстка - вместо <div class="product-image"> ... </div> --->
+<div class="product__image">
+	 <div class="product__gallery">
+		<div class="product-for">
+		   <div class="product-for__item">
+			  <a href="images/product2.jpeg" data-lightbox="product-popup" data-title="Элвес-МФ"><img src="images/product2.jpeg" alt="image"  draggable="false"/></a>
+		   </div>
+		   <div class="product-for__item">
+			  <a href="images/product2.jpeg" data-lightbox="product-popup" data-title="Элвес-МФ"><img src="mages/product2.jpeg" alt="image"  draggable="false"/></a>
+		   </div>
+		   <div class="product-for__item">
+			  <a href="images/product2.jpeg" data-lightbox="product-popup" data-title="Элвес-МФ"><img src="mages/product2.jpeg" alt="image"  draggable="false"/></a>
+		   </div>
+		   <div class="product-for__item">
+			  <a href="images/product2.jpeg" data-lightbox="product-popup" data-title="Элвес-МФ"><img src="mages/product2.jpeg" alt="image"  draggable="false"/></a>
+		   </div>
+		   <div class="product-for__item">
+			  <a href="images/product2.jpeg" data-lightbox="product-popup" data-title="Элвес-МФ"><img src="mages/product2.jpeg" alt="image"  draggable="false"/></a>
+		   </div>
+		   <div class="product-for__item">
+			  <a href="images/product2.jpeg" data-lightbox="product-popup" data-title="Элвес-МФ"><img src="mages/product2.jpeg" alt="image"  draggable="false"/></a>
+		   </div>
+		   <div class="product-for__item">
+			  <a href="images/product2.jpeg" data-lightbox="product-popup" data-title="Элвес-МФ"><img src="mages/product2.jpeg" alt="image"  draggable="false"/></a>
+		   </div>
+		</div>
+		<div class="product-nav">
+		   <div class="product-nav__item">
+			  <img src="mages/product2.jpeg" alt="image"  draggable="false"/>
+		   </div>
+		   <div class="product-nav__item">
+			  <img src="mages/product2.jpeg" alt="image" draggable="false"/>
+		   </div>
+		   <div class="product-nav__item">
+			  <img src="mages/product2.jpeg" alt="image" draggable="false"/>
+		   </div>
+		   <div class="product-nav__item">
+			  <img src="mages/product2.jpeg" alt="image" draggable="false"/>
+		   </div>
+		   <div class="product-nav__item">
+			  <img src="mages/product2.jpeg" alt="image" draggable="false"/>
+		   </div>
+		   <div class="product-nav__item">
+			  <img src="mages/product2.jpeg" alt="image" draggable="false"/>
+		   </div>
+		   <div class="product-nav__item">
+			  <img src="mages/product2.jpeg" alt="image" draggable="false"/>
+		   </div>
+		</div>
+	 </div>
+	 <div class="product__arrows">
+		<div class="productslider__left">
+		</div>
+		<div class="productslider__right">
+		</div>
+	 </div>
+  </div>
+  
+  
+  <!-- Стили -->
+ <style>  
+.product-nav .product-nav__item {
+    outline: none !important;
+	    position: relative;
+    height: 65px;
+}
+
+.product-for {
+	max-height: 450px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	max-width: 611px;
+}
+.product-nav {
+	height: 65px;
+	margin: auto;
+	padding: 0 17px;
+}
+.productslider__left {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 17px;
+	height: 65px;
+	background: url(../images/left.png) no-repeat;
+	background-position: center;
+}
+.productslider__right img,
+.productslider__left img {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+}
+.productslider__right {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 17px;
+	height: 65px;
+	background: url(../images/right.png) no-repeat;
+	background-position: center;
+}
+.productslider__right:hover {
+	background: url(../images/right_y.png) no-repeat;
+	cursor: pointer;
+	background-position: center;
+}
+.product-nav__item img {
+	max-height: 65px;
+	margin: auto;
+	width: 100%;
+	position: absolute;
+    top: 0;
+    bottom: 0;
+}
+.productslider__left:hover {
+	background: url(../images/left_y.png) no-repeat;
+	cursor: pointer;
+	background-position: center;
+}
+.product-nav__item {
+	height: 65px;
+	margin: 0 8px;
+	width: 88px;
+	position: relative;
+	opacity: 0.6;
+}
+.product__image {
+	position: relative;
+	max-width: 611px;
+}
+.product-nav__item:hover {
+	cursor: pointer;
+}
+.product-nav__item.slick-current {
+	opacity: 1;
+}
+
+@media (max-width: 989px) {
+.product-nav__item {
+		margin: 0 4px;
+	}
+	.product-nav__item {
+		height: 100%;
+	}
+	.product-nav {
+		height: auto;
+	}
+	.product-nav__item img {
+		width: initial;
+	}
+	.product-for__item img {
+		margin: auto;
+	}
+}
+
+@media (max-width: 430px) {
+	.product-nav__item img {
+		max-height: 45px;
+	}
+	.productslider__right,
+	.productslider__left {
+		height: 45px;
+	}		
+	.product-nav .product-nav__item {
+		height: 45px;
+	}
+}
+ </style>
+
+<!-- js -->
+
+$('.product-for').slick({
+	slidesToShow: 1,
+	slidesToScroll: 1,
+	arrows: false,
+	fade: false,
+	asNavFor: '.product-nav'
+});
+$('.product-nav').slick({
+	slidesToShow: 4,
+	slidesToScroll: 1,
+	asNavFor: '.product-for',
+	dots: false,
+	centerMode: false,
+	focusOnSelect: true,
+	arrow: true,
+	prevArrow: $('.productslider__left'),
+	nextArrow: $('.productslider__right'),
+
+});
+	

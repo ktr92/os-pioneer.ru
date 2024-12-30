@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'PF Din Text Cond Pro';
+    src: url('PFDinTextCondPro-MediumItalic.eot');
+    src: url('PFDinTextCondPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('PFDinTextCondPro-MediumItalic.woff2') format('woff2'),
+        url('PFDinTextCondPro-MediumItalic.woff') format('woff'),
+        url('PFDinTextCondPro-MediumItalic.ttf') format('truetype'),
+        url('PFDinTextCondPro-MediumItalic.svg#PFDinTextCondPro-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Din Text Cond Pro';
+    src: url('PFDinTextCondPro-Regular.woff2') format('woff2'),
+        url('PFDinTextCondPro-Regular.woff') format('woff'),
+        url('PFDinTextCondPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'PF Din Text Cond Pro';
+    src: url('PFDinTextCondPro-ThinItalic.eot');
+    src: url('PFDinTextCondPro-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('PFDinTextCondPro-ThinItalic.woff2') format('woff2'),
+        url('PFDinTextCondPro-ThinItalic.woff') format('woff'),
+        url('PFDinTextCondPro-ThinItalic.ttf') format('truetype'),
+        url('PFDinTextCondPro-ThinItalic.svg#PFDinTextCondPro-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Din Text Cond Pro';
+    src: url('PFDinTextCondPro-Thin.eot');
+    src: url('PFDinTextCondPro-Thin.eot?#iefix') format('embedded-opentype'),
+        url('PFDinTextCondPro-Thin.woff2') format('woff2'),
+        url('PFDinTextCondPro-Thin.woff') format('woff'),
+        url('PFDinTextCondPro-Thin.ttf') format('truetype'),
+        url('PFDinTextCondPro-Thin.svg#PFDinTextCondPro-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Din Text Cond Pro';
+    src: url('PFDinTextCondPro-Medium.woff2') format('woff2'),
+        url('PFDinTextCondPro-Medium.woff') format('woff'),
+        url('PFDinTextCondPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'PF Din Text Cond Pro';
+    src: url('PFDinTextCondPro-Italic.eot');
+    src: url('PFDinTextCondPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('PFDinTextCondPro-Italic.woff2') format('woff2'),
+        url('PFDinTextCondPro-Italic.woff') format('woff'),
+        url('PFDinTextCondPro-Italic.ttf') format('truetype'),
+        url('PFDinTextCondPro-Italic.svg#PFDinTextCondPro-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Din Text Cond Pro';
+    src: url('PFDinTextCondPro-Bold.woff2') format('woff2'),
+        url('PFDinTextCondPro-Bold.woff') format('woff'),
+        url('PFDinTextCondPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'PF Din Text Cond Pro';
+    src: url('PFDinTextCondPro-Medium_1.eot');
+    src: url('PFDinTextCondPro-Medium_1.eot?#iefix') format('embedded-opentype'),
+        url('PFDinTextCondPro-Medium_1.woff2') format('woff2'),
+        url('PFDinTextCondPro-Medium_1.woff') format('woff'),
+        url('PFDinTextCondPro-Medium_1.ttf') format('truetype'),
+        url('PFDinTextCondPro-Medium_1.svg#PFDinTextCondPro-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Din Text Cond Pro';
+    src: url('PFDinTextCondPro-BoldItalic.eot');
+    src: url('PFDinTextCondPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('PFDinTextCondPro-BoldItalic.woff2') format('woff2'),
+        url('PFDinTextCondPro-BoldItalic.woff') format('woff'),
+        url('PFDinTextCondPro-BoldItalic.ttf') format('truetype'),
+        url('PFDinTextCondPro-BoldItalic.svg#PFDinTextCondPro-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Din Text Cond Pro';
+    src: url('PFDinTextCondPro-Light.woff2') format('woff2'),
+        url('PFDinTextCondPro-Light.woff') format('woff'),
+        url('PFDinTextCondPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}

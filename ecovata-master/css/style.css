@@ -1,0 +1,1351 @@
+/* Webfont: Lato-Black */@font-face {
+    font-family: 'LatoWebBlack';
+    src: url('../fonts/fonts/Lato-Black.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/fonts/Lato-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/fonts/Lato-Black.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-Black.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-Black.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-BlackItalic */@font-face {
+    font-family: 'LatoWebBlack';
+    src: url('../fonts/fonts/Lato-BlackItalic.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/fonts/Lato-BlackItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/fonts/Lato-BlackItalic.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-BlackItalic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-BlackItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-Bold */@font-face {
+    font-family: 'LatoWebBold';
+    src: url('../fonts/fonts/Lato-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/fonts/Lato-Bold.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-Bold.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-BoldItalic */@font-face {
+    font-family: 'LatoWebBold';
+    src: url('../fonts/fonts/Lato-BoldItalic.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/fonts/Lato-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/fonts/Lato-BoldItalic.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-BoldItalic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-BoldItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-Hairline */@font-face {
+    font-family: 'LatoWebHairline';
+    src: url('../fonts/fonts/Lato-Hairline.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/fonts/Lato-Hairline.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/fonts/Lato-Hairline.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-Hairline.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-Hairline.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-HairlineItalic */@font-face {
+    font-family: 'LatoWebHairline';
+    src: url('../fonts/fonts/Lato-HairlineItalic.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/fonts/Lato-HairlineItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/fonts/Lato-HairlineItalic.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-HairlineItalic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-HairlineItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-Heavy */@font-face {
+    font-family: 'LatoWebHeavy';
+    src: url('../fonts/fonts/Lato-Heavy.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/fonts/Lato-Heavy.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/fonts/Lato-Heavy.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-Heavy.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-Heavy.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-HeavyItalic */@font-face {
+    font-family: 'LatoWebHeavy';
+    src: url('../fonts/fonts/Lato-HeavyItalic.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/fonts/Lato-HeavyItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/fonts/Lato-HeavyItalic.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-HeavyItalic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-HeavyItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-Italic */@font-face {
+    font-family: 'LatoWeb';
+    src: url('../fonts/fonts/Lato-Italic.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/fonts/Lato-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/fonts/Lato-Italic.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-Italic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-Italic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-Light */@font-face {
+    font-family: 'LatoWebLight';
+    src: url('../fonts/fonts/Lato-Light.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/fonts/Lato-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/fonts/Lato-Light.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-Light.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-Light.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-LightItalic */@font-face {
+    font-family: 'LatoWebLight';
+    src: url('../fonts/fonts/Lato-LightItalic.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/fonts/Lato-LightItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/fonts/Lato-LightItalic.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-LightItalic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-LightItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-Medium */@font-face {
+    font-family: 'LatoWebMedium';
+    src: url('../fonts/fonts/Lato-Medium.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/fonts/Lato-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/fonts/Lato-Medium.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-Medium.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-Medium.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-MediumItalic */@font-face {
+    font-family: 'LatoWebMedium';
+    src: url('../fonts/fonts/Lato-MediumItalic.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/fonts/Lato-MediumItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/fonts/Lato-MediumItalic.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-MediumItalic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-MediumItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-Regular */@font-face {
+    font-family: 'LatoWeb';
+    src: url('../fonts/fonts/Lato-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/fonts/Lato-Regular.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-Regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-Semibold */@font-face {
+    font-family: 'LatoWebSemibold';
+    src: url('../fonts/fonts/Lato-Semibold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/fonts/Lato-Semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/fonts/Lato-Semibold.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-Semibold.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-Semibold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-SemiboldItalic */@font-face {
+    font-family: 'LatoWebSemibold';
+    src: url('../fonts/fonts/Lato-SemiboldItalic.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/fonts/Lato-SemiboldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/fonts/Lato-SemiboldItalic.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-SemiboldItalic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-SemiboldItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-Thin */@font-face {
+    font-family: 'LatoWebThin';
+    src: url('../fonts/fonts/Lato-Thin.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/fonts/Lato-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/fonts/Lato-Thin.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-Thin.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-Thin.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-ThinItalic */@font-face {
+    font-family: 'LatoWebThin';
+    src: url('../fonts/fonts/Lato-ThinItalic.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/fonts/Lato-ThinItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/fonts/Lato-ThinItalic.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-ThinItalic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/fonts/Lato-ThinItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+
+body {
+		font-family: LatoWeb;
+		font-weight: 500;
+		color: black;
+}
+
+h1 {
+	font-weight: bold;
+	font-family: LatoWebBlack;
+	text-transform: uppercase;
+}
+
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	padding: 60px 0;	
+    font-size: 50px;
+	font-family: LatoWebBlack;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+	text-transform: uppercase;
+	font-family: LatoWebBlack;
+	padding: 40px 0;
+    margin-top: 30px;
+}
+
+h4 {
+  font-size: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: LatoWebBlack;
+  padding: 40px 0;
+}
+
+input.error_input {border:1px solid #f00 !important; box-shadow:0 0 2px 0px #f00}
+
+.container {
+	max-width: 1140px !important;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+.button-zvonok {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(46, 160, 0);
+    border-radius: 5px;
+	background: none;
+	color: rgb(46, 160, 0);
+	padding: 4px 16px;
+	font-size: 20px;
+	float: right;
+}
+
+.bold-big {
+	font-family: LatoWebBlack;
+	font-weight: bold;
+    font-size: 32px;
+	color: rgb(56, 56, 56);
+}
+
+.green {
+	color: rgb(46, 160, 0);
+}
+
+
+
+header p {
+    font-size: 20px;
+    color: rgb(56, 56, 56);
+    line-height: 1.3;
+}
+
+header .col-md-3 {
+	padding: 0;
+}
+
+.header-phone {
+	text-align: center;
+}
+
+.block-1 {
+	background-image:url(../images/block-1-fon.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	background-position-x: 50%;
+}
+
+.block-1 h1 {
+  /*font-size: 70px;*/
+}
+
+.font-33px-light {
+	font-size: 33px;
+	font-family: LatoWebLight;
+	font-weight: normal;
+}
+
+.font-25px {
+	font-size: 25px;	
+}
+
+.font-70px {
+	font-size: 70px;
+}
+
+.font-50px {
+	font-size: 50px;
+}
+
+.block-1-text {
+	padding: 15px 80px 80px 60px;
+    background-color: rgba(0, 0, 0, 0.7);
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.block-1 ul {
+	width: 120%;
+	list-style-image: url(../images/marker.png);
+	margin-top: 40px;
+}
+
+.block-1 ul li {
+	float: left;
+	width: 50%;
+	font-size: 20px;
+	font-family: LatoWebLight;
+	line-height: 1.2;
+	margin-left: -15px;
+}
+
+.green-bold {
+	font-family: LatoWeb;
+	font-weight: bold;
+	color: rgb(46, 160, 0);
+}
+
+input {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  
+  font-size: 20px;
+  font-family: LatoWeb;
+  color: rgb(0, 0, 0);
+  padding: 8px 40px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+
+input::-moz-placeholder { color: black; }
+
+input::-webkit-input-placeholder { color: black; }
+
+.form-input-name {  
+	background: url(../images/fa-user.png) no-repeat;
+	background-position-y: 50%;
+	background-position-x: 5%;
+}
+
+.form-input-phone {
+	background: url(../images/fa-phone.png) no-repeat;
+	background-position-y: 50%;
+	background-position-x: 5%;
+}
+/*
+#form-input-name-2 {  
+	background: url(../images/fa-user.png) no-repeat;
+	background-position-y: 50%;
+	background-position-x: 50%;
+}
+
+#form-input-phone-2 {
+	background: url(../images/fa-phone.png) no-repeat;
+	background-position-y: 50%;
+	background-position-x: 50%;
+}*/
+
+.form-group {
+	margin-left: 20px;
+}
+
+.button_call_back {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(27, 87, 3);
+  border-radius: 5px;
+  background-image: -moz-linear-gradient( 90deg, rgb(46,160,0) 0%, rgb(66,190,16) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(46,160,0) 0%, rgb(66,190,16) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(46,160,0) 0%, rgb(66,190,16) 100%);
+  color: white;  
+  font-size: 20px;
+ /* font-weight: bold;*/
+   padding: 8px 48px;
+
+}
+
+.block-2 {
+	padding-bottom: 50px;
+}/*
+
+.block-1-form .col-md-4 {
+	width: 27.333333%;
+}*/
+
+.block-3 {
+	background-image: url(../images/block-3-fon.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*padding-bottom: 90px;*/
+	background-position-x: 50%;
+}
+
+.h2-fon{
+	margin-right: -75px;
+    margin-top: -15px;
+}
+
+.preim p {
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.preim {
+	text-align: center;
+	padding-bottom: 90px;
+	position: relative;
+}
+
+.preim-text {
+	display: none;
+	position: absolute;
+	background-color: white;
+	border-radius: 9px;
+	z-index: 999;
+	border: 1px solid rgb(46, 160, 0);;	
+		
+}
+	
+.preim-text p {
+    font-size: 15px;
+    font-weight: normal;
+	text-align: left;
+	padding: 15px;
+}
+
+.zagolovok {
+  border-radius: 5px;
+  background-color: rgb(46, 160, 0);
+  color: white;
+  font-size: 15px;
+  padding: 7px 0px;
+  font-weight: bold;
+
+}
+
+.block-4 {
+	background-image: url(../images/block-4-fon.jpg);
+	background-size: cover;
+	padding-bottom: 90px;
+}
+
+.dom-image {
+	position: relative;
+}
+
+
+.dom-popup {
+	position: absolute;
+	top: 15%;
+	bottom: 0;
+	left: 15%;
+	right: 0;
+	max-width: 756px;	
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    height: auto;
+    max-height: 330px;
+    z-index: 9999;
+	background-color: white;
+	display: none;
+}
+
+.dom-popup-content > img {
+    padding: 10px;
+    float: right;
+}
+
+.dom-popup-righttext {
+    padding-top: 40px;
+	padding-right: 60px;
+}
+
+.img-width-100 {
+	width: 100%;
+}
+
+.dom-popup-header {
+	text-transform: uppercase;
+	text-align: center;
+    font-size: 20px;
+	padding: 20px;
+}
+
+.dom-metka {
+	background-color: rgb(46, 160, 0);
+	border-radius: 50%;
+	width: 2%;
+	padding-bottom: 2%;
+	/*height: 20px;*/
+	position: absolute;
+	z-index: 99;
+}
+
+.dom-snoska {
+	position: absolute;
+    font-size: 20px;
+	text-transform: uppercase;
+}
+
+.dom-snoska:hover {
+	cursor: pointer;
+}
+
+.voprznak {
+	border: 2px solid rgb(46, 160, 0);
+	border-radius: 50%;
+	padding: 3px 7px;
+	color: rgb(46, 160, 0);
+	font-weight: bold;
+	font-size: 16px;
+    vertical-align: top;
+}
+
+.close-modal:hover {
+	cursor: pointer;
+}
+
+.preim-for-toggle:hover {
+	cursor: pointer;
+}
+
+.preim-for-toggle:hover  {
+	    background-color: rgba(0,0,0,0.05);
+		text-decoration: underline;
+}
+
+
+	
+#konstrukcii {
+	top: 0;
+	left: 52%;
+}
+
+#konstrukcii-metka {
+	top: 18%;
+	left: 43%;
+}
+
+#konstrukcii-line {
+    position: absolute;
+    top: 0%;
+    left: 44%;
+}
+
+#cherdak {
+	top: 17%;
+	left: 53%;
+}
+
+#cherdak-metka {
+	top: 33%;
+	left: 44%;
+}
+
+#cherdak-line {
+    position: absolute;
+    top: 17%;
+    left: 45%;
+}
+
+#kladka {
+	top: 30%;
+    left: 64%;
+	margin-top: -2px;
+}
+
+#kladka-metka {
+	top: 47%;
+	left: 55%;
+}
+
+#kladka-line {
+    position: absolute;
+    top: 30%;
+    left: 56%;
+	margin-left: 5px;
+}
+
+#saiding {
+	top: 75%;
+    left: 64%;
+	margin-top: -2px;
+}
+
+#saiding-metka {
+	top: 63%;
+	left: 56%;
+}
+
+#saiding-line {
+    position: absolute;
+    top: 65%;
+    left: 56%;
+	margin-left: 5px;
+}
+	
+#pol {
+	top: 94%;
+    left: 52%;
+	margin-top: -2px;
+}
+
+#pol-metka {
+	top: 81%;
+	left: 43%;
+}
+
+#pol-line {
+    position: absolute;
+    top: 83%;
+    left: 43%;
+	margin-left: 6px;
+}
+	
+
+.block-5 {
+	background-color: #e8eadf;
+	padding-bottom: 70px;
+}
+
+.sposob p {
+	text-align: center;
+	font-size: 15px;
+}
+
+.video-text {
+	background-color: #e8eadf;
+}
+
+.video-text p {
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+.video-text-padding {
+	padding: 20px;
+	padding: 17px;
+}
+
+.block-6 {
+	padding-bottom: 80px;
+}
+
+.block-7 {
+	background-image: url(../images/block-7-fon.jpg);
+	background-position-x: 50%;
+	background-size: cover;
+	padding-bottom: 50px;
+}
+
+.block-7 h2 {
+	color: white;
+}
+
+.sertificates-container {
+	position: relative;
+}
+
+.sertificates-container img {
+	margin: auto;
+}
+
+.sert-left {
+	position: absolute;
+	top: 50%;
+	left: -5%;
+	color: white;
+	font-size: 35px;
+}
+	
+.sert-right {
+	position: absolute;
+	top: 50%;
+	right: -5%;
+	color: white;
+	font-size: 35px;
+}
+
+.sert-left:hover,	.sert-right:hover {
+	cursor: pointer;
+	color: rgba(255,255,255,0.55);
+}
+	
+
+.block-8-h2-container {
+	display: table;
+}
+
+.big-five {
+	display: table-cell;
+  font-size: 300px;
+  color: rgb(46, 160, 0);
+  font-weight: bold;
+}
+
+.block-8-h2 {
+	display: table-cell;
+  font-size: 50px;
+  font-weight: bold;
+  vertical-align: middle;
+  padding-left: 40px;
+  text-transform: uppercase;
+}
+
+.fact {
+	min-height: 250px !important;
+	background-color: #e8eadf;
+	margin-top: 80px;
+}
+
+.fact p {
+  font-size: 25px;
+  font-style: italic;
+  line-height: 1.2;
+  padding: 30px;
+  margin-bottom: 0;
+}
+
+.facts-left, .facts-right {
+	font-size: 30px;
+	margin-top: 5px;
+	float: left;
+	margin-right: 5px;
+}
+
+.facts-left:hover, .facts-right:hover {
+	cursor: pointer;
+   	color: rgba(0,0,0,0.55);
+
+}
+
+
+.block-9 {
+	background-color: #e8eadf;
+	padding-bottom: 80px;
+}
+
+.block-9 p {
+	text-align: center;
+	padding-bottom: 80px;
+	font-size: 20px;
+}
+
+.block-9 h2 {
+	padding-bottom: 20px;
+}
+
+#map img {
+	float: right;
+}
+
+.contacts {
+	padding-top: 80px;
+    font-size: 20px;
+}
+
+.contacts img {
+	margin-left: -15px;
+	margin-bottom: 40px;
+}
+	
+
+.block-10 .col-md-6 {
+	overflow: hidden;
+	padding: 0;
+}
+
+.block-10 .row {
+	margin: 0;
+}
+
+footer {
+	background-color: #e8eadf;
+}
+
+footer .container {
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 20px;
+    color: rgb(56, 56, 56);
+    line-height: 1.3;
+}
+
+footer .col-md-3 {
+	padding: 0;
+}
+
+
+/* modal */
+
+.modal_zvonok_content {
+	text-align: center;
+}
+
+.modal_zvonok_content h4 {
+	padding: 0;
+}
+
+.modal-content {
+	border-style: solid;
+    border-width: 1px;
+    border-color: rgb(46, 160, 0);
+    border-radius: 5px;
+}
+}
+.modal_zvonok_content p {
+	width: 110%;
+	text-align: center;
+	margin-left: -15px;
+}
+
+.modal-head {
+	font-size: 26px;
+	font-weight: 300;
+}
+
+.modal-header {
+   /* padding: 15px;*/
+    border-bottom: none; 
+    text-align: center;
+	padding: 0;
+}
+
+#modal_zvonok {
+ /* font-size: 30px;*/
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-align: center;
+}
+
+.modal_zvonok_text {
+  font-size: 21px;
+  color: rgb(3, 3, 3);
+  line-height: 1.2;
+  text-align: center;
+  margin: 0;
+	margin-bottom: 50px;
+	font-weight: bold;
+}
+
+
+.modal-content .button_call_back {
+	margin: 10px 0;
+}
+
+.modal-.block-13 {
+    border-top: none;
+}
+
+#modal_input_name {
+  border-radius: 3px;
+  background-color: rgb(228, 228, 228);
+  border: none;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+
+#modal_zvonok_container {
+    padding-top: 0px;
+    text-align: center;
+}
+
+#modal_zvonok_size {
+  max-width: 460px;
+}
+
+#modal_caption_zakazat {
+  font-size: 20px;
+  color: rgb(1, 1, 1);
+  line-height: 1.2;
+  text-align: center;
+
+}
+
+.modal_button_zakazat {
+  border-radius: 3px;
+  background-color: #e6a62f;
+  border: none;
+
+  padding: 15px;  
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 90%;
+  margin-top: 20px;
+}
+
+#modal_zvonok_form {
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 0px;
+  margin: 0px;
+}
+
+
+.modal_zvonok_form_content {
+  padding: 3px;
+  padding-left: 60px;
+  padding-right: 60px;
+  
+}
+
+#modal_zvonok_close {
+	opacity: inherit;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+#modal_close_href {
+  font-size: 18px;
+  color: rgb(46, 160, 0);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.modal_zvonok_content input {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  padding: 8px 40px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.modal_zvonok_content .form-button-zakazat {
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(46, 160, 0);
+	border-radius: 5px;
+	background-color: rgb(46, 160, 0);
+	padding: 0 10px;
+	padding-bottom: 5px;
+	margin: 5px 0;
+	padding-top: 5px;
+	color: white;
+	font-size: 16px;
+}
+
+.form-input-name-modal {
+	background: url(../images/fa-user.png) no-repeat;
+	background-position-y: 50%;
+	background-position-x: 30%;
+}
+
+.form-input-phone-modal  {
+	background: url(../images/fa-phone.png) no-repeat;
+	background-position-y: 50%;
+	background-position-x: 30%;
+}
+
+.polit {padding: 30px;}
+#modal_politika_title {padding: 40px 0 0;}
+.polit h5 {font-size: 18px; font-weight: 600;}
+
+
+@media screen and (max-width: 1200px) {
+	.bold-big {
+		font-size: 29px;
+	}
+	
+	.font-50px {
+		font-size: 40px;
+	}
+	
+	.font-70px {
+		font-size: 60px;
+	}
+	
+	.block-1 {
+		background-position-x: 52%;
+	}
+	
+	.block-1 ul li {
+		font-size: 15px;
+	}
+	
+	.button_call_back {
+		padding: 8px 35px;
+	}
+	
+	.form-input-phone, .form-input-name {
+		background-position-x: 0%;
+	}
+	
+	h2 {
+		font-size: 40px;
+	}
+	
+	.dom-snoska {
+		font-size: 17px;
+	}
+	
+	#cherdak-line {
+		top: 13%;
+	}
+	
+	#cherdak {
+		top: 13%;
+		left: 54%;
+	}
+	
+	.preim-text p {
+		font-size: 12px;
+	}
+	
+	.sert-right {
+		right: -3%;
+	}
+	
+	.sert-left {
+		left: -3%;
+	}
+	
+	.contacts {
+		padding-top: 20px;
+	}
+}	
+
+@media screen  and (max-width: 991px) {
+	
+	header p, footer p {
+		font-size: 16px;
+	}
+	
+	.bold-big {
+		font-size: 22px;
+	}
+	
+	h4 {
+		padding: 0;
+		font-size: 17px;
+	}
+	
+	h3 {
+		margin: 0;
+		padding: 20px 0;
+	}
+	
+	h2 {
+		padding: 20px 0;
+		font-size: 30px;
+	}
+	
+	.dom-snoska {
+		font-size: 13px;
+	}
+	
+	.dom-popup-righttext {
+		padding-top: 0;
+		padding-right: 5px;
+	}
+	
+	.dom-popup {
+		max-height: 250px;
+	}
+	
+	
+	.big-five {
+		font-size:185px;
+	}
+	
+	.block-8-h2 {
+		font-size: 35px;
+	}
+	
+	.fact p {
+		font-size: 17px;		
+		padding: 10px;
+	}
+	
+	.fact {
+		height: auto;
+		min-height: 0 !important;
+		margin-top: 35px;
+	}
+	
+	.block-9 p {
+		padding-bottom: 20px;
+	}
+	
+	.preim-text {
+		width: 115%;
+	}
+	#map img {
+		width: 100%;
+	}
+
+	
+}
+
+
+@media screen and (max-width: 767px) {
+	
+	header {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	
+	header hr {
+		display: none;
+	}
+	
+	.bold-big {
+		font-size: 20px;
+	}
+	
+	.button-zvonok {
+		padding: 4px 5px;
+	}
+	
+	.font-50px {
+		font-size: 25px;
+	}
+	
+	.font-70px {
+		font-size: 40px;
+	}
+	
+	.font-33px-light {
+		font-size: 18px;
+	}
+	
+	.font-25px {
+		font-size: 16px;
+	}
+	
+	.block-1-text {
+		padding: 1px 68px 65px 40px;
+		background-color: rgba(0, 0, 0, 0.7);
+		margin-top: 19px;
+		margin-bottom: 19px;
+	}
+	
+	h3 {
+		font-size: 20px;
+	}
+	
+	h2 {
+		padding: 5px 0;
+		font-size: 20px;
+	}
+	
+	.dom-snoska {
+		font-size: 10px;
+	}
+	
+	.dom-popup-header {
+		padding: 5px;
+	}
+	
+	.dom-popup-righttext { 	
+		font-size: 12px;
+		padding-bottom: 5px;
+	}
+	
+	.dom-popup {
+		max-height: initial;
+		left: 0;
+		top: 0;
+	}
+	
+	.dom-popup-header {
+		font-size: 17px;
+	}
+	
+	.h2-fon {
+		margin-right: -40px;
+		margin-top: -5px;
+		width: 11%;
+	}
+	
+	.big-five {
+		font-size: 50px;
+	}
+	
+	.block-8-h2 {
+		font-size: 20px;
+		padding-left: 10px;
+	}
+	
+	.block-8-h2-container {
+		padding-top: 50px;
+	}
+	
+	.arrows-facts {
+		float: right;
+	}
+	
+	.preim {
+		padding-bottom: 30px;
+	}
+	
+}
+
+
+@media screen and (max-width: 500px) {
+	header .col-xs-4 {
+		width: 50%;
+	}
+	
+	footer .col-xs-4 {
+		width: 50%;
+	}
+	
+	h3 {
+		font-size: 16px;
+	}
+	
+	h2 > img {
+		display: none;
+	}
+	
+	.button-zvonok {
+		font-size: 14px;
+		padding: 1px;
+		    float: left;
+	}
+	
+	.block-1-text {
+		padding: 1px 15px 65px 10px;
+	}
+	
+	.block-1 ul {
+		margin-top: 0;
+		list-style-image: initial;
+	}
+	
+	.block-1 ul li {
+		font-size: 13px;
+	}
+	
+	.font-70px {
+		font-size: 30px;
+	}
+	
+	.dom-snoska {
+		font-size: 7px;
+	}
+	
+	.voprznak {
+		border: 1px solid rgb(46, 160, 0);
+		border-radius: 50%;
+		padding: 2px 5px;
+		font-size: 10px;
+	}
+	
+	.dom-popup .col-xs-6 {
+		width: 100%;
+	}
+	
+	.dom-popup {
+		    bottom: inherit;
+	}
+	
+	.dom-popup-header {
+		font-size: 14px;
+	}
+	
+	#konstrukcii {
+		margin-top: -11px;
+	}
+	
+	.block-8-h2 {
+		font-size: 11px;
+	}
+		
+	.fact p {
+		font-size: 14px;
+	}
+	
+	.contacts {
+		font-size: 14px;
+	}
+	
+	.contacts img {
+		margin-bottom: 20px;
+	}
+	
+	.modal_zvonok_form_content {
+		padding: 0 !important;
+	}
+	
+	.modal_zvonok_text {
+		margin-bottom: 10px;
+		font-size: 15px;
+	}
+	
+	.modal-head {
+		font-size: 15px;
+	}
+}
+
+
+

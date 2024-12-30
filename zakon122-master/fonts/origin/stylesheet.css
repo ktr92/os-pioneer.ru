@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'PF Din Text Cond Pro';
+    src: url('PFDinTextCondPro-Bold.woff2') format('woff2'),
+        url('PFDinTextCondPro-Bold.woff') format('woff'),
+        url('PFDinTextCondPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Din Text Cond Pro';
+    src: url('PFDinTextCondPro-Regular.woff2') format('woff2'),
+        url('PFDinTextCondPro-Regular.woff') format('woff'),
+        url('PFDinTextCondPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Din Text Cond Pro';
+    src: url('PFDinTextCondPro-Light.woff2') format('woff2'),
+        url('PFDinTextCondPro-Light.woff') format('woff'),
+        url('PFDinTextCondPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Din Text Cond Pro';
+    src: url('PFDinTextCondPro-Medium.woff2') format('woff2'),
+        url('PFDinTextCondPro-Medium.woff') format('woff'),
+        url('PFDinTextCondPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
